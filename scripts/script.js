@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
       for(let i = 0; i<petShelter.length; i++){
         let pet = petShelter[i];
         let petHolder = document.createElement("li");   // do li bc li is the list we want to get 
-        petHolder.textContent = `${pet.name} - ${pet.type} - ${pet.age}`;
+        petHolder.textContent = `${pet.name} - ${pet.type} - ${pet.age} years old`;
         petList.appendChild(petHolder); //will assist with adding each pet item to be shown in the list on the browser
      }
     }
